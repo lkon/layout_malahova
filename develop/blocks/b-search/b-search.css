@@ -1,0 +1,12 @@
+.b-search{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:1;
+	font-size:11px;
+	vertical-align:top;
+	max-width:700px;
+	min-height:60px;
+	padding:17px 19px 0;	
+	background:#fff;
+}

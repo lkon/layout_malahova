@@ -1,0 +1,15 @@
+body{
+	font:13px/20px Arial, sans-serif;
+	color:#424249;
+}
+a:link{	
+	color:#424249;
+	text-decoration:none;
+}
+a:visited {
+	color:#888890;
+	text-decoration:none;
+}
+a:hover {
+	color:#e54555;	
+}

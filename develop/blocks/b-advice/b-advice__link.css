@@ -1,0 +1,8 @@
+.b-advice__link{
+	position:absolute;
+	top:-30px;
+	left:0;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+}    

@@ -1,0 +1,6 @@
+.b-foot__menu__item{
+	display:inline-block;
+	width:50%;
+	margin-bottom:8px;
+	white-space: nowrap;
+}

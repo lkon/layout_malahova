@@ -1,0 +1,8 @@
+.b-popup__link_pos_up{
+	top:7px;
+	left:96px;
+}
+.b-popup__link_pos_up 
+	.b-page__link 	{
+		vertical-align:top;
+	}

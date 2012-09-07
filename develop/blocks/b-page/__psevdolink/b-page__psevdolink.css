@@ -1,0 +1,10 @@
+.b-page__psevdolink{
+	display:inline;
+	
+	cursor:pointer;
+	
+	border-bottom:1px dashed;
+}
+.b-page__psevdolink:hover{
+	color:#e54555;	
+}

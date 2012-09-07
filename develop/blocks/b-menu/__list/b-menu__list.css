@@ -1,0 +1,22 @@
+.b-menu__list{
+	display:table;
+	width:100%;
+	padding:0;
+	margin:0; 
+}
+.b-menu__list:after{
+		position:absolute;
+		z-index:0;
+		top:44px;
+		left:0;
+		display:inline;
+		width:100%;
+		height:5px;
+		content:"\0020";
+		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAGCAYAAAD37n+BAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGRJREFUeNpifPn+KwMW4AfE84HYH4iPIEswYVHsAcSrgVgIiHcBsRM+Da5AvA6I2aB8TiDeAjUEQ4MNEG+EKkIGnFBxkDMZGKF+sIRaz8OAG/wC4miQDZOBeDcBxQxQZ64ACDAAGQAR/rdn490AAAAASUVORK5CYII=); 
+		background-position:0 0;
+		background-repeat:repeat-x;
+}
+.b-menu__list:hover:after{
+	content:none;
+}

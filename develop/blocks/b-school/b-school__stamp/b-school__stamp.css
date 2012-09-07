@@ -1,0 +1,11 @@
+.b-school__stamp{
+	position:absolute;
+	left:0;
+	bottom:54px;
+	width:178px;
+	height:208px;
+	background:url("b-school__stamp.png") 0 0 no-repeat;	
+}
+.b-school__slogan:hover .b-school__stamp{
+	background-position:0 100%;
+}

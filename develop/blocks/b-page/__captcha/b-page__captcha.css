@@ -1,0 +1,7 @@
+.b-page__captcha{
+	font:18px/16px Georgia, serif;
+	text-transform:uppercase;
+	border-bottom: 3px double #888890;
+	height:18px;
+	padding-bottom:18px;
+}

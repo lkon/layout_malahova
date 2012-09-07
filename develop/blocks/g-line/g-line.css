@@ -1,0 +1,5 @@
+.g-line:after {
+    display: block;
+    clear: both;
+    content: '';
+}

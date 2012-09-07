@@ -1,0 +1,32 @@
+.b-popup{
+	position:absolute;
+	left:50%;
+	top:0;
+	z-index:10;
+	display:block;  
+		
+	font-size: 11px;
+    line-height:20px;
+    
+    width: 270px;
+	margin-left: -167px;
+    margin-top: 80px;
+    padding:7px 5px;
+	
+	border-width: 26px 28px 28px 26px;
+	   -moz-border-image: url(b-popup.png) 26 28 28 26 repeat;
+		 -o-border-image: url(b-popup.png) 26 28 28 26 repeat;
+			border-image: url(b-popup.png) 26 28 28 26 repeat;
+}
+body:nth-of-type(1) .b-popup {			/* хак для Chrome, иначе универсальное правило (border-image) перекрывает проприетарное правило - образуя сообща дыру */
+	-webkit-border-image: url(b-popup.png) 26 28 28 26 repeat;
+}
+.no-borderimage .b-popup{
+	margin-top:160px;
+	outline: 20px solid #fff;
+	-webkit-box-shadow: 1px 1px 15px 20px rgba(0,0,0,0.3);
+	   -moz-box-shadow: 1px 1px 15px 20px rgba(0,0,0,0.3);
+		-ms-box-shadow: 1px 1px 15px 20px rgba(0,0,0,0.3);
+			box-shadow: 1px 1px 15px 20px rgba(0,0,0,0.3);
+	background:#fff;
+}

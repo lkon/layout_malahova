@@ -1,0 +1,16 @@
+@import url("../blocks/b-banner/b-banner.css");
+@import url("../blocks/b-banner/b-banner__slogan/b-banner__slogan.css");
+@import url("../blocks/b-banner/b-banner__stamp/b-banner__stamp.css");
+
+@import url("../blocks/b-advice/b-advice.css");
+@import url("../blocks/b-advice/b-advice__bg.css");
+@import url("../blocks/b-advice/b-advice__text.css");
+@import url("../blocks/b-advice/b-advice__link.css");
+
+@import url("../blocks/b-foot/b-foot.css");
+@import url("../blocks/b-foot/__menu/__list/b-foot__menu__list.css");
+@import url("../blocks/b-foot/__menu/__item/b-foot__menu__item.css");
+@import url("../blocks/b-foot/__menu/__item/_pos/b-foot__menu__item_pos_indent.css");
+
+@import url("../blocks/b-developers/b-developers.css");
+@import url("../blocks/b-vcard/b-vcard.css");

@@ -1,0 +1,11 @@
+.b-popup__closing{
+	position:absolute;
+	top:0;
+	right:0;
+	font-size:2em;
+	border:none;
+	background:none;
+}
+.b-popup__closing:hover{
+	color:#e54555;
+}

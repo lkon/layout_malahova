@@ -1,0 +1,13 @@
+.b-menu__sublist-item{
+	display:table-cell;
+	padding:8px 15px 13px;
+}
+.b-menu__item_bg_green .b-menu__sublist-item{	
+	background:#47ad54;
+} 
+.b-menu__item_bg_pale .b-menu__sublist-item{
+	background:#ffa5b1;
+}
+.b-menu__item_bg_lilac .b-menu__sublist-item{
+	background:#c08ba8;
+}

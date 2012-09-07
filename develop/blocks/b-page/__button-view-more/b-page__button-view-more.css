@@ -1,0 +1,67 @@
+.b-page__button-view-more{
+	font-family:Georgia, serif;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	margin:40px 20px 20px;
+	padding:6px ;
+	border-width: 8px;
+	   -moz-border-image: url(b-page__button-view-more.png) 8;
+		 -o-border-image: url(b-page__button-view-more.png) 8;
+			border-image: url(b-page__button-view-more.png) 8;
+}
+body:nth-of-type(1) .b-page__button-view-more{			/* хак для Chrome, иначе универсальное правило (border-image) перекрывает проприетарное правило - образуя сообща дыру */
+	-webkit-border-image: url(b-page__button-view-more.png) 8;
+}
+.b-page__button-view-more:hover{
+	color:#424249;
+	border-width: 8px;
+	   -moz-border-image: url(b-page__button-view-more_status_hover.png) 8;
+		 -o-border-image: url(b-page__button-view-more_status_hover.png) 8;
+			border-image: url(b-page__button-view-more_status_hover.png) 8;
+}
+
+body:nth-of-type(1) .b-page__button-view-more:hover {			/* хак для Chrome, иначе универсальное правило (border-image) перекрывает проприетарное правило - образуя сообща дыру */
+	-webkit-border-image: url(b-page__button-view-more_status_hover.png) 8;
+}
+html.no-borderimage .b-page__button-view-more{					/* правило для агентов, не поддерживающих border-image */
+	padding:13px;
+	border:1px solid #c3c3c7;
+}
+html.no-borderimage .b-page__button-view-more:hover{			/* правило для агентов, не поддерживающих border-image */
+	padding:13px;
+	border:1px solid #888890;
+	background:#f4f7fa;
+}
+.b-page__button-view-more:before,
+.b-page__button-view-more:after{
+	
+	font-weight: 900;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: monospace;
+
+	display:inline-block;
+	content:"\222B";	
+	
+	width:20px;
+	height:20px;
+	margin:0 10px;
+	
+	vertical-align:middle;
+	
+	-webkit-transform:rotate(69deg);
+	   -moz-transform:rotate(69deg);
+		 -o-transform:rotate(69deg);
+		-ms-transform:rotate(69deg);
+			transform:rotate(69deg);
+}
+html.no-csstransforms .b-page__button-view-more:before,
+html.no-csstransforms .b-page__button-view-more:after{
+	font-size:0;
+	height:10px;
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAGCAYAAAAhS6XkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAH5JREFUeNpi7OiYwAAESkD8HorJBixALAjEZ4D4LBC7ElAPstQFSsMAyAGrgfgezDAQ3oNFM0ijMRJWQjLgLBTfA+IOIO5kgXJmQRWFomkWhIrfg2qcBaXRLZ4J8yYIpANxOdQwJSRbkW3HBVxgvmNBEuwkM9xBrgwD0QABBgCHBx38Ky9jnQAAAABJRU5ErkJggg==) no-repeat;
+}
+
+

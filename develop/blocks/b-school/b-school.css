@@ -1,0 +1,10 @@
+.b-school{
+	position:relative;
+	font-family: Georgia, serif;
+    font-size: 2.3em;
+    text-align: center;
+    width:240px;
+    height:400px;
+    overflow:hidden;
+	background:#fff url("b-school.jpg") 0 50% no-repeat;
+}

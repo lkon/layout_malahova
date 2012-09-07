@@ -1,0 +1,18 @@
+.b-school__slogan{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding:20px 0;
+	background:#fff;
+}
+.b-school__slogan:before {
+	position:absolute;
+	top:-7px;
+	left:0;
+	content:'\0020';
+	display:block;
+	width:100%;
+	height:7px;
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAYAAADebrddAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEhJREFUeNpi/P//PwMOIArEr5EFmHAoLAXi20BshiIKMhkNl/5HgA9AbAaTw6cQQwMhhSgaQIqECCiEawAprgPiV0Qo/g8QYAA5YM51xUPTjwAAAABJRU5ErkJggg==) repeat-x;
+}
